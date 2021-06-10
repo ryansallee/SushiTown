@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SushiTown</title>
+</head>
+<body>
+    <header id="header">
+        <div class="flex-horizontal">
+            <img id="sushi" src="https://libreshot.com/wp-content/uploads/2015/11/preparing-sushi.jpg" alt="Sushi Town Logo">
+            <div class="flex-vertical flex-grow" aria-role="menu">
+                <h1>SushiTown Teaches You How to Flex</h1>
+                <nav>
+                <ul class="flex-horizontal">
+                    <li><a href="flex_horz">Horizontal Flex</a></li>
+                    <li><a href="horz_grow">Horizontal Flex and Grow</a></l1>
+                    <li><a href="flex_vert">Vertical Flex</a></li>
+                    <li><a href="flex_vert_grow">Vertical Flex and Grow</a></li>
+                </nav>
+            </div>        
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <p>Don't believe anything that grid burger told you about us. (Their name doesn't deserve to be capitalized)</p>
+        </div>
+        <section>
+            <h2>Flexing Horizontal</h2>
+            <div class="flex-horizontal" id="flex_horz">
+                <p>Look at us</p>
+                <p>We are so horizontal</p>
+                <p>Such horizontal</p>
+                <p>But, aren't we block elements?</p>
+            </div>
+            <section>
+                <h3>Flexing and Growing</h3>
+                <div class="flex-horizontal" id="horz_grow">
+                    <img src="https://cdn.pixabay.com/photo/2018/12/28/01/48/arnold-schwarzenegger-3898763__340.png" id="arnie" alt="Arnold Schwaranegger image">
+                    <img src="https://cdn.pixabay.com/photo/2018/12/28/01/48/arnold-schwarzenegger-3898763__340.png" id="lorem_ipsum" class="flex-grow" alt="Lorem Ipsum article">
+                    <img src="https://cdn.pixabay.com/photo/2018/12/28/01/48/arnold-schwarzenegger-3898763__340.png" id="arnie2" alt="Another Arnold Schwaranegger image">
+                </div>
+            </section>
+        </section>
+        <section>
+            <h2>Flexing Vertical</h2>
+            <div class="flex-vertical" id="flex_vert">
+                <span>We are a family of spans!</span>
+                <span>We are inline elements!</span>
+                <span>Ummm...but we are on-top of one another</span>
+                <a>I'm a link!</a>
+                <span>Yeah, some guy made us flex column and that made us stack on top of one another!</span>
+            </div>  
+            <section>
+                <h3>Flexing Vertical and Growing</h3>
+                <div class="flex-vertical" id="flex_vert_grow">
+                    <div>
+                    <code>
+                        let selectedText = document.getElementById("this_is_the_id");
+                        element.setAttribute("class", "");
+                    </code>
+                    </div>
+                    <div class="flex-grow" id="flex_button">
+                    <button  >I am a BUTTON</button>
+                    </div>
+                    <div>
+                    <button>I am another button</button> 
+                </div>
+                </div>
+            </section>
+        </section>
+        
+    </main>
+    <footer>
+        <p>This is in the footer</p>
+    </footer>
+</body>
+</html>
